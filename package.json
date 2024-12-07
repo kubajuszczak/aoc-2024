@@ -1,0 +1,12 @@
+{
+  "name": "aoc24",
+  "version": "1.0.0",
+  "main": "aoc01.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
