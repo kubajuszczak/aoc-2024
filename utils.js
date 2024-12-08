@@ -11,3 +11,16 @@ export const readInputLines = (filename) => {
 export const sum = (a, b) => (a + b);
 export const product = (a, b) => (a * b);
 export const median = (array) => array[(array.length - 1) / 2]; // gotta make sure the number of elements is odd
+
+// https://stackoverflow.com/a/17445322
+export const gcd = (a, b) => {
+    a = Math.abs(a);
+    b = Math.abs(b);
+    if (b > a) { var temp = a; a = b; b = temp; }
+    while (true) {
+        if (b == 0) return a;
+        a %= b;
+        if (a == 0) return b;
+        b %= a;
+    }
+}
