@@ -1,4 +1,4 @@
-import { readInput, median, sum, readInputLines } from "./utils.js";
+import { readInputLines } from "./utils.js";
 
 const input = readInputLines("input06.txt");
 

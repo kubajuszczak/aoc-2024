@@ -1,4 +1,4 @@
-import { gcd, readInputLines, sum } from "./utils.js";
+import { gcd, readInputLines } from "./utils.js";
 
 const lines = readInputLines("input08.txt");
 

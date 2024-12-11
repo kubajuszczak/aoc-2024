@@ -4,6 +4,10 @@ export const readInput = (filename) => {
     return fs.readFileSync(filename, { encoding: 'utf8' });
 }
 
+export const readInputIntArray = (filename) => {
+    return readInput(filename).split(" ").map(it => parseInt(it));
+}
+
 export const readInputLines = (filename) => {
     return readInput(filename).split("\n");
 }
